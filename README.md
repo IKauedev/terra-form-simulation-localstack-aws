@@ -9,11 +9,10 @@ Este projeto simula um ambiente AWS completo **localmente** usando [LocalStack](
 ```
 projeto-infra-local/
 ├── docker-compose.yml     # LocalStack rodando como container
-├── infra/                 # Código Terraform da infraestrutura
+├── infra/                 
 │   ├── main.tf
 │   ├── provider.tf
-│   └── variables.tf       # (opcional)
-├── app/                   # Sua aplicação (Python, Node.js, Java etc)
+├── app/
 │   └── src/...
 └── README.md
 ```
